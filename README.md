@@ -9,9 +9,10 @@ Interactive visualization of the A* pathfinding algorithm implemented in C++ usi
 • Modular C++ architecture  
 
 ## Tech Stack
-• C++
-• SFML
-• A* Pathfinding Algorithm
+• C++  
+• SFML  
+• A* Pathfinding Algorithm  
+
 
 ## How It Works
 The program constructs a grid environment where the A* algorithm evaluates possible paths from a start node to a goal node using heuristic cost estimation.
@@ -19,4 +20,5 @@ The program constructs a grid environment where the A* algorithm evaluates possi
 ## Future Improvements
 • Interactive obstacle placement  
 • Real-time algorithm animation  
+
 • Multiple pathfinding algorithms (Dijkstra, BFS)
