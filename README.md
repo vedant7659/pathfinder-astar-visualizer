@@ -20,5 +20,5 @@ The program constructs a grid environment where the A* algorithm evaluates possi
 ## Future Improvements
 • Interactive obstacle placement  
 • Real-time algorithm animation  
-
 • Multiple pathfinding algorithms (Dijkstra, BFS)
+
