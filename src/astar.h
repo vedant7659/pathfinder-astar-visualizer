@@ -2,16 +2,9 @@
 #define ASTAR_H
 
 #include <vector>
+#include "node.h"
 
-struct Node {
-    int x, y;
-    int g, h, f;
-    Node* parent;
-
-    Node(int x, int y);
-};
-
-std::vector<Node> findPath(
+std::vector<Node> aStarSearch(
     std::vector<std::vector<int>>& grid,
     Node start,
     Node goal
